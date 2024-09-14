@@ -1,0 +1,25 @@
+.nav-style {
+    position: relative;
+    padding-bottom: 2pt;
+  }
+  
+  .nav-style::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 2pt;
+    background-color: #DAC0A3;
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: transform 0.9s ease-in-out;
+    -webkit-transition: transform 0.9s ease-in-out;
+    -moz-transition: transform 0.9s ease-in-out;
+    -ms-transition: transform 0.9s ease-in-out;
+    -o-transition: transform 0.9s ease-in-out;
+}
+  .nav-style:hover::after {
+    transform: scaleX(1);
+    transform-origin: top;
+  }
