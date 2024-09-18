@@ -96,7 +96,7 @@ export default function Header() {
             </ul>
           </div>
           <div className="col-lg-6  text-end">
-            <img src="/public/Images/me.png" className="w-50 bg-color-img shadow-img rounded-circle image" alt="" />
+            <img src="/Images/me.png" className="w-50 bg-color-img shadow-img rounded-circle image" alt="" />
           </div>
         </div>
       </div>
