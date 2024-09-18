@@ -12,8 +12,8 @@ export default function About() {
             <img src="/public/Images/wing.png" className="w-100" alt="" />
           </div>
           <div className="col-lg-11 text-dark">
-            <h2 className="fw-bold">I'm Hadeel</h2>
-            <h4>Front End Developer</h4>
+            <h3 className="fw-bold">I'm Hadeel</h3>
+            <h5>Front End Developer</h5>
             <p>
               I am a Front-End developer based in Palestine. I am a Computer
               Engineering undergraduate. I am passionate about enhancing my

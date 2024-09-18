@@ -9,15 +9,14 @@ export default function Navbar() {
     <div className=" fixed-top   py-3">
       <div className="container">
         <div className="d-flex justify-content-between">
-          <Link className="text-white mx-3 pb-2 fw-bold  "><span className="text-color">Protfolio</span> | Hadeel </Link>
+          <Link className="text-white mx-3 pb-2 fw-bold  logo"><span className="text-color">Protfolio</span> | Hadeel </Link>
           <div className="d-flex justify-content-around">
-            <HashLink className="text-white mx-3 pb-2 nav-style" activeClassName="active"  to="/#">Home</HashLink>
-            <HashLink className="text-white mx-3 pb-2 nav-style" activeClassName="active"  to="/about">About</HashLink>
-            <HashLink className="text-white mx-3 pb-2 nav-style" activeClassName="active"  to="/skills">Skills</HashLink>
-            <HashLink className="text-white mx-3 pb-2 nav-style" activeClassName="active"  to="/education">Education</HashLink>
-            <HashLink className="text-white mx-3 pb-2 nav-style" activeClassName="active"  to="/#project">Project</HashLink>
-            <HashLink className="text-white mx-3 pb-2 nav-style" activeClassName="active"  to="/contact">Contact</HashLink>
-            
+            <HashLink className="mx-3 pb-2 nav-style navlink active" style={{ "--i": 1 }} to="/#">Home</HashLink>
+            <HashLink className="text-white mx-3 pb-2 nav-style navlink" style={{ "--i": 2 }} to="/about">About</HashLink>
+            <HashLink className="text-white mx-3 pb-2 nav-style navlink" style={{ "--i": 3 }} to="/skills">Skills</HashLink>
+            <HashLink className="text-white mx-3 pb-2 nav-style navlink" style={{ "--i": 4 }} to="/education">Education</HashLink>
+            <HashLink className="text-white mx-3 pb-2 nav-style navlink" style={{ "--i": 5 }} to="/project">Project</HashLink>
+            <HashLink className="text-white mx-3 pb-2 nav-style navlink" style={{ "--i": 6 }} to="/contact">Contact</HashLink>
           </div>
         </div>
       </div>
